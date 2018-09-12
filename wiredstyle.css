@@ -17,13 +17,32 @@
 	height: 65px;
 }
 
-@media all and (max-width: 540px){
+#footlogo {
+	align-items: center;
+}
+
+footer img {
+	width: 50px;
+	text-decoration: none;
+}
+
+footer li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+@media all and (max-width: 599px){
 	#advertisingbanner img {
 		width: 280px;
 	}
 	
 	.image-article-top-stories img {
 		width: 280px;
+	}
+	
+	#socialnetwork-footer img {		
+		width: 70px;
+		
 	}
 	
 	
