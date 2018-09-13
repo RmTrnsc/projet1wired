@@ -2,6 +2,10 @@
 	margin: 0;
 }
 
+body {
+	background-color: #f6f6f6;
+}
+
 #advertisingbanner img {
 	width: 728px;
 	transition: 0.5s;
@@ -32,21 +36,16 @@ footer li {
 }
 
 @media all and (max-width: 599px){
-	#advertisingbanner img {
-		width: 280px;
+	
+	.top-stories-article container, h4 {
+		text-align: center;
 	}
 	
-	.image-article-top-stories img {
-		width: 280px;
+	.text-article-top-stories {
+		background-color: red;
 	}
 	
-	#socialnetwork-footer img {		
-		width: 70px;
-		
+	.image-article-top-stories {
+		background-color: yellow;
 	}
-	
-	#nav-bar-footer {
-		
-	}
-	
 }
