@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 	<html lang="en">
 		<head>
+			<Title>Wiredclone</Title>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width; initiale-scale=1">
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-			<link style="text/css" rel="stylesheet" href="wiredstyle.css">
-			<title>Wiredclone</title>
+			<link href="wiredstyle.css" style="text/css" rel="stylesheet">
 		</head>
 		<!-------------------body------------------->
 	<body>
@@ -24,54 +24,56 @@
 				</header>									
 			</div>
 		</div>
-			<div id="advertisingbanner">
-				<img src="images/bannierepub.png" alt="pub" class="advertising"/>
+			<div id="advertisingbanner container-fluid">
+				<div class="row justify-content-center">
+					<img class="col-lg-6 col-12" src="images/bannierepub.png" alt="pub" class="advertising"/>
+				</div>
 			</div>
 		<!-------------top stories article---------->
-		<div id="top-stories-article">
+		<div class="top-stories-article container">
 			<h4>TOP STORIES</h4>
 			<!---------------fisrt article---------->
-				<div id="article1-top-stories">
+				<div id="article1-top-stories row justify-content-center">
 					<div class="image-article-top-stories">
-						<img src="images/satellite-67718_1280.jpg" alt="firstarticle" class="firtsarticle"/>
+						<img class="col-12" src="images/satellite-67718_1280.jpg" alt="firstarticle" class="firtsarticle"/>
 					</div>					
-					<div class="text-article-top-stories">
-						<h4>TITLE</h4>
+					<div class="text-article-top-stories col-10">
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>
 			<!---------------second article--------->		
-				<div id="article2-top-stories">
-					<div class="image-article-top-stories">
-						<img src="images/pedestrians-918471_640.jpg" alt="secondarticle" class="secondsarticle"/>
-					</div>					
-					<div class="text-article-top-stories">
-						<h4>TITLE</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
-					</div>
+				<div id="article2-top-stories row justify-content-center">
+						<div class="image-article-top-stories col-12">
+							<img src="images/pedestrians-918471_640.jpg" alt="secondarticle" class="secondsarticle"/>
+						</div>					
+						<div class="text-article-top-stories col-10">
+							<p>Title</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
+							<p>Journalist</p>
+						</div>
 				</div>
 			<!---------------third article--------->		
-				<div id="article3-top-stories">
-					<div class="image-article-top-stories">
-						<img src="images/la-prefecture-liste-les-routes-de-mayennes-inondees-mais-pas-coupees-ce-jeudi-matin.jpg" alt="thirdarticle" class="thirdsarticle"/>
+				<div id="article3-top-stories row justify-content-center">
+					<div class="image-article-top-stories col-12">
+						<img class="col-12" src="images/la-prefecture-liste-les-routes-de-mayennes-inondees-mais-pas-coupees-ce-jeudi-matin.jpg" alt="thirdarticle" class="thirdsarticle"/>
 					</div>
-					<div class="text-article-top-stories">
-						<h4>TITLE</h4>
+					<div class="text-article-top-stories col-10">
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>
 			<!----------------four article--------->
-				<div id="article4-top-stories">
-					<div class="image-article-top-stories">
-						<img src="images/cells-1872666_640.jpg" alt="fourarticle" class="foursarticle"/>
+				<div id="article4-top-stories row justify-content-center">
+					<div class="image-article-top-stories col-12">
+						<img class="col-12" src="images/cells-1872666_640.jpg" alt="fourarticle" class="foursarticle"/>
 					</div>
-					<div class="text-article-top-stories">
-						<h4>TITLE</h4>
+					<div class="text-article-top-stories col-10">
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>				
 		</div>
@@ -84,9 +86,9 @@
 						<img src="images/AppleAppstore-967227678.jpg" alt="firstarticle" class="firtsarticle"/>
 					</div>					
 					<div class="text-article-most-popular">
-						<h4>TITLE</h4>
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>
 	    <!-----------------second article---------->		
@@ -95,9 +97,9 @@
 						<img src="images/ElonMusk-461496224.jpg" alt="firstarticle" class="firtsarticle"/>
 					</div>					
 					<div class="text-article-most-popular">
-						<h4>TITLE</h4>
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>
 	    <!-----------------third article---------->
@@ -106,9 +108,9 @@
 						<img src="images/Ideas_Art_Joi-Education.jpg" alt="firstarticle" class="firtsarticle"/>
 					</div>					
 					<div class="text-article-most-popular">
-						<h4>TITLE</h4>
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>
 	    <!-----------------four article---------->
@@ -117,16 +119,16 @@
 						<img src="images/Ocean%20Cleanup%201.jpg" alt="firstarticle" class="firtsarticle"/>
 					</div>					
 					<div class="text-article-most-popular">
-						<h4>TITLE</h4>
+						<p>Title</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus.</p>
-						<h4>JOURNALIST</h4>
+						<p>Journalist</p>
 					</div>
 				</div>					
 		</div>
 	</body>
 		
+		<!--------------------footer------------>
 	<footer>
-		 <!--------------------footer------------>
 		<div id="footerlogo">WIRED</div>
 		<div id="socialnetwork-footer">
 			<ul>
