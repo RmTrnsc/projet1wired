@@ -6,7 +6,11 @@
                            <!--    Bootstrap CSS    -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
             
-    
+                        <!--    Bootstrap JS    -->
+            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
             
                              <!--    CSS    -->
             
@@ -29,19 +33,23 @@
 		<!----------------------   topbar    ------------------------>
         
             <header id="topbar">
-                <div id="topbar-background" class="topbar-background-accueil">
+                <div id="topbar-background" class="topbar-background-article">
                     <div id="topbar-container">
                                 <!--   Menu burger   -->
-                        <div id="topbar-container-menuburger" >
-                            <div id="topbar-menuburger" class="topbar-menuburger-accueil">
+                        <div id="topbar-container-menuburger">
+                            <div id="topbar-menuburger" class="topbar-menuburger-article">
                             </div>
                         </div>
                                     <!--   Logo   -->
-                        <div id="topbar-container-logo" class="topbar-container-logo-accueil">
+                        <div id="topbar-container-logo" class="topar-container-logo-article">
                             <a id="topbar-link-logo" href=""></a>
                         </div>
+                                <!--   Titre categorie   -->
+                        <div id="topbar-titre-categorie-container">
+                            <div class="topbar-titre-categorie">Un truc que j'aimerai dire à tout le monde</div>
+                        </div>
                                  <!--   Subscribe   -->
-                        <div id="topbar-container-subscribe" class="topbar-subscribe-accueil">
+                        <div id="topbar-container-subscribe" class="topbar-subscribe-article">
                             <a href="">SUBSCRIBE</a>
                         </div>
                     </div>												
@@ -49,30 +57,31 @@
                                  <!--   Navigation  -->
                 <div id="topbar-navigation-container">
                     <div class="topbar-navigation-container row">
-                        <div class='nav-business categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-business categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">BUSINESS</a>
                         </div>
-                        <div class='nav-culture categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-culture nav-culture-article categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">CULTURE</a>
                         </div>
-                        <div class='nav-gear categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-gear categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">GEAR</a>
                         </div>
-                        <div class='nav-ideas categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-ideas categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">IDEAS</a>
                         </div>
-                        <div class='nav-science categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-science categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">SCIENCE</a>
                         </div>
-                        <div class='nav-security categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-security categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">SECURITY</a>
                         </div>
-                        <div class='nav-transportation categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-transportation categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">TRANSPORTATION</a>
                         </div>
                     </div>
-                </div>  
-                                     <!--   Menu   -->
+                 </div>
+                
+                                        <!--   Menu   -->
                 
                 <div id="topbar-menu-container" class="hidden">
                                         <!--   Menu  Big -->
@@ -81,7 +90,7 @@
                             <div class="topbar-menu-categories-picture menu-picture-business"></div>
                             <div class="topbar-menu-categories-name">BUSINESS</div>
                         </div>
-                        <div class="topbar-menu-categories-big  col-sm nav-culture ">
+                        <div class="topbar-menu-categories-big topbar-menu-categories-big-article col-sm nav-culture nav-culture-article">
                             <div class="topbar-menu-categories-picture menu-picture-culture"></div>
                             <div class="topbar-menu-categories-name">CULTURE</div>
                         </div>
@@ -184,10 +193,132 @@
                  </div>
             </header>
         
-        <!--------------------    bannière    ---------------------->
+        <!--------------------    Content   ---------------------->
         
-        
-	       <div id="content-accueil">
+           
+	       <div id="content">
+               <div id="content-bigpicture">
+               </div>
+               
+               <div id="content-container">
+                     
+                                        <!--   Reseaux  -->
+                                         
+                   <div id="content-space-Reseaux">
+                        <div id="content-reseaux-container" class="content-block-container ontheside">
+                           <div id="content-reseaux-title" class="content-fixed-title">
+                               SHARE
+                           </div>
+                           <div class="content-lign-reseaux content-lign content-ligntop">
+                                 <div class="content-lign-reseaux-picture content-reseaux-picture-share">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">SHARE</div>
+                                   <div class="content-reseaux-lign-soustitre">36</div>
+                               </div>
+                           </div>
+                           <div class="content-lign-reseaux content-lign">
+                               <div class="content-lign-reseaux-picture content-reseaux-picture-tweet">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">TWEET</div>
+                               </div>
+                           </div>
+                           <div class="content-lign-reseaux content-lign">
+                                 <div class="content-lign-reseaux-picture content-reseaux-picture-comment">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">COMMENT</div>
+                               </div>
+                           </div>
+                           <div class="content-lign-reseaux content-lign">
+                                 <div class="content-lign-reseaux-picture content-reseaux-picture-email">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">EMAIL</div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                    <!--   Article -->
+                   
+                   <div id="content-article-container" class="content-block-container">
+                       <div id="content-article">
+                           <div class="content-title-author">
+                               ETIENNE RABIN CULTURE 15.09.2018 20:00
+                           </div>
+                           <div id="content-title">
+                               UN TRUC QUE J'AIMERAI DIRE A TOUT LE MONDE
+                           </div>
+                           <div id="content-picture">
+                           </div>
+                           <div id="content-picture-author" class="content-title-author">
+                               MACHIN IMAGE
+                           </div>
+                           <div id="content-text">
+                               Qui cum venisset ob haec festinatis itineribus Antiochiam, praestrictis palatii ianuis, contempto Caesare, quem videri decuerat, ad praetorium cum pompa sollemni perrexit morbosque diu causatus nec regiam introiit nec processit in publicum, sed abditus multa in eius moliebatur exitium addens quaedam relationibus supervacua, quas subinde dimittebat ad principem.<br/>
+
+Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris totidemque remanerent magistris.<br/>
+
+Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.<br/>
+
+Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. circumstetere igitur hoc munimentum per triduum et trinoctium et cum neque adclivitas ipsa sine discrimine adiri letali, nec cuniculis quicquam geri posset, nec procederet ullum obsidionale commentum, maesti excedunt postrema vi subigente maiora viribus adgressuri.
+                           </div>
+                       </div>
+                   </div>
+                   <div id="content-space-mostpopular">
+                       <div id="content-mostpopular-container" class="content-block-container ontheside">
+                           <div id="content-mostpopular-title" class="content-fixed-title"> MOST POPULAR</div>
+                           <div class="content-lign-mostpopular content-lign content-ligntop">
+                               <div class="content-mostpopular-picture" id="mostpopular-picture1">
+                               </div>
+                               <div class="content-mostpopular-article">
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       SCIENCE
+                                   </div>
+                                   <div class="content-mostpopular-lign-title">
+                                       IL A DIT QU'IL LE FERAIT ET IL L'A FAIT
+                                   </div>
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       ROMAIN TOURNESAC
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="content-lign-mostpopular  content-lign">
+                               <div class="content-mostpopular-picture" id="mostpopular-picture2">
+                               </div>
+                               <div class="content-mostpopular-article">
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       BACKCHANNEL
+                                   </div>
+                                   <div class="content-mostpopular-lign-title">
+                                       VOUS NE CROIREZ JAMAIS CE QU'IL C'EST PASSÉ
+                                   </div>
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       SOIZIC LAMBERT
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="content-lign-mostpopular  content-lign">
+                               <div class="content-mostpopular-picture" id="mostpopular-picture3">
+                               </div>
+                               <div class="content-mostpopular-article">
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       CULTURE
+                                   </div>
+                                   <div class="content-mostpopular-lign-title">
+                                       TOP 10 DES CHOSES LES PLUS INCROYABLES
+                                   </div>
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       ETIENNE RABIN
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="content-lign-mostpopular-link  content-lign">
+                           </div>
+                       </div>
+                   </div>
+               </div>
            </div>
         
         
@@ -288,18 +419,14 @@
                     </div>
                 </div>
             </footer>
-                               <!--    Bootstrap JS    -->
-            
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
            
-           
-                                <!--    Mon JS    -->
+                              <!--    Mon JS    -->
            
             <script src="wired.js"></script>
            
         </body>
+        
+        
 		
 		
 		
