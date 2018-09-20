@@ -1,0 +1,239 @@
+* {
+    margin:0;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+  /*---------------------------CONTAINER FLUID EN TETE----------*/
+#texte{
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+#ligne1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#ligne2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    line-height: 1em;
+}
+    
+#ligne3 {
+    font-weight: bold;
+    font-size: 1.3em;
+}  
+
+
+#liste {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.1em;  
+}
+
+#cle_usb{
+    display: inline-block;
+    float: right;
+    min-width: 30%;
+    margin-top: -10%;
+}
+
+
+
+ /*---------------------------CUSTOMIZE YOUR ORDER----------*/
+
+#container-customize {
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: -10%;
+    line-height: 1em;
+}
+
+#lien{
+    color: white;
+    text-decoration: underline;
+}
+.bloc1 {
+    font: Arial, bold, 1.5em;
+    background-color: #FEFEFE; 
+    padding-top: 2%;
+    padding-left: 2%;
+    border-top: 4px inset black;
+    border-left: 1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 2px solid #CBCBCB; 
+}
+
+#bloc2 {
+    background-color: #FEFEFE;
+    height: 100%;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    border-top: 1px solid #CBCBCB;
+    border-left: 1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    box-shadow: 0px 3px 0px #CBCBCB;    
+}
+
+
+
+ /*---------------------------ENTER YOUR INFORMATION----------*/
+
+#container-information {
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 5%;
+    line-height: 1em;
+}
+
+
+#bloc3 {
+    background-color: #FEFEFE;
+    box-shadow: 0px 3px 0px #CBCBCB;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    border-left: 1px #CBCBCB solid;
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+bloc3 >formulaire >cadre {
+    border: solid black;
+}
+
+#texte {
+    text-align: left;
+    font-size: 1em;
+}
+
+.formulaire {
+    padding: 2%;
+}
+
+#mention {
+    font-size: 0.7em;
+    padding-left: 2%;
+}
+ /*---------------------------ENTER YOUR PAYMENT----------*/
+
+#cadenas {
+    display:inline-block;
+    padding-left: 2%;
+}
+
+#transaction {
+    font-size: 0.9em;
+    font-weight: lighter;
+    display: inline-block;
+    padding-left: 2%;
+    text-align: left;
+}
+
+
+#bloc4 {
+    background-color: #FEFEFE;
+    box-shadow: 0px 3px 0px #CBCBCB;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    border-left: 1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    
+}
+
+
+
+ /*---------------------------REVIEW ORDER----------*/
+
+#review {
+    background-color: #FEFEFE;
+    padding-top: 3%;
+    padding-left: 3%;
+    border-left: 1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB; 
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 4%;
+}
+    
+.total {
+    font-weight: bold;
+}
+
+
+
+
+ /*--------------SUBSCRIBERS--------------------------------------*/
+
+#subscriber{
+    padding-top: 3%;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.button {
+    padding-right: 50%;
+    
+}
+/*----------------FAQ---------------------*/
+
+#faq{
+    
+    margin-top: 5%;
+}
+
+#questions {
+    padding-top: 3%;
+}
+ 
+#container-faq {
+    padding-top: 3%;
+}
+
+h3{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.panel-title {
+    font-size: 1em;
+    padding-bottom: 2%;
+}
+
+.deroulant{
+    border-top: solid;
+}
+/*----------------CGV---------------------*/
+#CGV {
+    margin-top: 5%;
+}
+
+#customer service {
+    padding-right: 3%;
+}
+
+
+
+
+
+
+
+
