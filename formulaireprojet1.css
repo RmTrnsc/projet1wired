@@ -7,6 +7,11 @@ body {
 }
 
   /*---------------------------CONTAINER FLUID EN TETE----------*/
+
+#head {
+    padding-top:3.8em;
+}
+
 #texte{
     margin-left: 7%;
     margin-top: 5%;
@@ -51,7 +56,7 @@ body {
 #container-customize {
     text-align: left;
     font-size: 0.9em;
-    margin-top: -10%;
+    margin-top: -6em;
     line-height: 1em;
 }
 
@@ -80,6 +85,19 @@ body {
     border-right: 1px solid #CBCBCB;
     border-bottom: 1px solid #CBCBCB;
     box-shadow: 0px 3px 0px #CBCBCB;    
+}
+
+@media only screen and (max-width : 768px) {
+    
+    #subs-inter, lien {
+        visibility: hidden;
+        height: 0px;
+        
+    }
+    
+    #container-customize {
+        margin-top: -4em;
+    }
 }
 
 
