@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 	<html lang="en">
 		<head>
-			<TITLE>Wiredclone</TITLE>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width; initiale-scale=1">
-
-			
-			<!------------link font------->
-			
-			<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Asap:700" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700" rel="stylesheet">
-
-			                  <!-- Bootstrap CSS    -->
+                           <!--    Bootstrap CSS    -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-			
-				<!--------link css-------------->
-			<link href="wiredstyle_etienne.css" style="text/css" rel="stylesheet">
-			<link href="wiredstyle_romain.css" style="text/css" rel="stylesheet">
-			
-			
+            
+                        <!--    Bootstrap JS    -->
+            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            
+                             <!--    CSS    -->
+            
+			<link style="text/css" rel="stylesheet" href="wiredstyle_etienne.css">
+			<title>Wiredclone</title>
+            
+                            <!--    font    -->
+            
+            <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Asap:700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700" rel="stylesheet">
 		</head>
-
-		<!-------------------body------------------->
-
-	<body>
-
-		<!------------------topbar------------------>
-
-		<header id="topbar">
-                <div id="topbar-background" class="topbar-background-accueil">
+        
+        
+		<!---------------------     body     ----------------------->
+        
+	   <body>
+        
+		<!----------------------   topbar    ------------------------>
+        
+            <header id="topbar">
+                <div id="topbar-background" class="topbar-background-article">
                     <div id="topbar-container">
                                 <!--   Menu burger   -->
-                        <div id="topbar-container-menuburger" >
-                            <div id="topbar-menuburger" class="topbar-menuburger-accueil">
+                        <div id="topbar-container-menuburger">
+                            <div id="topbar-menuburger" class="topbar-menuburger-article">
                             </div>
                         </div>
                                     <!--   Logo   -->
-                        <div id="topbar-container-logo" class="topbar-container-logo-accueil">
+                        <div id="topbar-container-logo" class="topar-container-logo-article">
                             <a id="topbar-link-logo" href=""></a>
                         </div>
+                                <!--   Titre categorie   -->
+                        <div id="topbar-titre-categorie-container">
+                            <div class="topbar-titre-categorie">Un truc que j'aimerai dire à tout le monde</div>
+                        </div>
                                  <!--   Subscribe   -->
-                        <div id="topbar-container-subscribe" class="topbar-subscribe-accueil">
+                        <div id="topbar-container-subscribe" class="topbar-subscribe-article">
                             <a href="">SUBSCRIBE</a>
                         </div>
                     </div>												
@@ -50,30 +57,31 @@
                                  <!--   Navigation  -->
                 <div id="topbar-navigation-container">
                     <div class="topbar-navigation-container row">
-                        <div class='nav-business categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-business categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">BUSINESS</a>
                         </div>
-                        <div class='nav-culture categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-culture nav-culture-article categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">CULTURE</a>
                         </div>
-                        <div class='nav-gear categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-gear categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">GEAR</a>
                         </div>
-                        <div class='nav-ideas categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-ideas categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">IDEAS</a>
                         </div>
-                        <div class='nav-science categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-science categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">SCIENCE</a>
                         </div>
-                        <div class='nav-security categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-security categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">SECURITY</a>
                         </div>
-                        <div class='nav-transportation categorie-nav categorie-nav-accueil col-sm' >
+                        <div class='nav-transportation categorie-nav col-sm' >
                             <a class="topbar-categorie-nav-link" href="">TRANSPORTATION</a>
                         </div>
                     </div>
-                </div>  
-                                     <!--   Menu   -->
+                 </div>
+                
+                                        <!--   Menu   -->
                 
                 <div id="topbar-menu-container" class="hidden">
                                         <!--   Menu  Big -->
@@ -82,7 +90,7 @@
                             <div class="topbar-menu-categories-picture menu-picture-business"></div>
                             <div class="topbar-menu-categories-name">BUSINESS</div>
                         </div>
-                        <div class="topbar-menu-categories-big  col-sm nav-culture ">
+                        <div class="topbar-menu-categories-big topbar-menu-categories-big-article col-sm nav-culture nav-culture-article">
                             <div class="topbar-menu-categories-picture menu-picture-culture"></div>
                             <div class="topbar-menu-categories-name">CULTURE</div>
                         </div>
@@ -184,217 +192,135 @@
                     </div>
                  </div>
             </header>
-					
+        
+        <!--------------------    Content   ---------------------->
+        
+           
+	       <div id="content">
+               <div id="content-bigpicture">
+               </div>
+               
+               <div id="content-container">
+                     
+                                        <!--   Reseaux  -->
+                                         
+                   <div id="content-space-Reseaux">
+                        <div id="content-reseaux-container" class="content-block-container ontheside">
+                           <div id="content-reseaux-title" class="content-fixed-title">
+                               SHARE
+                           </div>
+                           <div class="content-lign-reseaux content-lign content-ligntop">
+                                 <div class="content-lign-reseaux-picture content-reseaux-picture-share">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">SHARE</div>
+                                   <div class="content-reseaux-lign-soustitre">36</div>
+                               </div>
+                           </div>
+                           <div class="content-lign-reseaux content-lign">
+                               <div class="content-lign-reseaux-picture content-reseaux-picture-tweet">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">TWEET</div>
+                               </div>
+                           </div>
+                           <div class="content-lign-reseaux content-lign">
+                                 <div class="content-lign-reseaux-picture content-reseaux-picture-comment">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">COMMENT</div>
+                               </div>
+                           </div>
+                           <div class="content-lign-reseaux content-lign">
+                                 <div class="content-lign-reseaux-picture content-reseaux-picture-email">
+                               </div>
+                               <div class="content-lign-reseaux-text">
+                                   <div class="content-reseaux-lign-titre">EMAIL</div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                    <!--   Article -->
+                   
+                   <div id="content-article-container" class="content-block-container">
+                       <div id="content-article">
+                           <div class="content-title-author">
+                               ETIENNE RABIN CULTURE 15.09.2018 20:00
+                           </div>
+                           <div id="content-title">
+                               UN TRUC QUE J'AIMERAI DIRE A TOUT LE MONDE
+                           </div>
+                           <div id="content-picture">
+                           </div>
+                           <div id="content-picture-author" class="content-title-author">
+                               MACHIN IMAGE
+                           </div>
+                           <div id="content-text">
+                               Qui cum venisset ob haec festinatis itineribus Antiochiam, praestrictis palatii ianuis, contempto Caesare, quem videri decuerat, ad praetorium cum pompa sollemni perrexit morbosque diu causatus nec regiam introiit nec processit in publicum, sed abditus multa in eius moliebatur exitium addens quaedam relationibus supervacua, quas subinde dimittebat ad principem.<br/>
 
+Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris totidemque remanerent magistris.<br/>
 
-		
-			<div id="advertisingbanner">
-				<img class="advertising" src="images/bannierepub.png" alt="pub"/>				
-			</div>
+Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.<br/>
 
-		<!-------------top stories article---------->
-
-		<div id="all-articles">
-			<div id="top-stories-article">	
-				<div id="top-stories-title">	
-					<h4>top stories</h4>
-				</div>
-																						
-				<!---------------fisrt article---------->
-
-				<div id="firstpart-article-top-stories">
-					<div id="firstarticle-top-stories">
-						<div class="image-article-top-stories">
-							<img class="firtsarticle" src="images/satellite.jpg" alt="firstarticle" />
-						</div>					
-						<div class="text-article-top-stories">
-							<div class="text-article-top-stories-title">
-								<p>TITLE</p>
-							</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<div class="text-article-top-stories-journalist">
-								<p>JOURNALIST</p>
-							</div>
-						</div>
-					</div>
-							
-				<!---------------second article--------->		
-
-					<div id="secondarticle-top-stories">
-						<div class="image-article-top-stories">
-							<img class= "secondsarticle" src="images/pedestrians.jpg" alt="secondarticle"/>
-						</div>					
-						<div class="text-article-top-stories">
-							<div class="text-article-top-stories-title">
-								<p>TITLE</p>
-							</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<div class="text-article-top-stories-journalist">
-								<p>JOURNALIST</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!---------------third article--------->	
-
-				<div id="secondpart-article-top-stories">	
-					<div id="thirdarticle-top-stories">
-						<div class="image-article-top-stories">
-							<img class="thirdsarticle" src="images/celulles.jpg" alt="thirdarticle"/>
-						</div>
-						<div class="text-article-top-stories">
-							<div class="text-article-top-stories-title">
-								<p>TITLE</p>
-							</div>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<div class="text-article-top-stories-journalist">
-								<p>JOURNALIST</p>
-							</div>
-						</div>
-					</div>
-
-				<!----------------four article--------->
-
-					<div id="fourarticle-top-stories">				
-						<div class="text-article-top-stories">
-							<div class="text-article-top-stories-title">
-								<img src="images/telephone.jpg" alt="telephone" class="telephone">
-								<p>TITLE</p>
-							</div>						
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<div class="text-article-top-stories-journalist">
-								<p>JOURNALIST</p>
-							</div>
-						</div>
-					</div>	
-						
-					<!----------------five article--------->
-
-					<div id="fivearticle-top-stories">
-						<div class="image-article-top-stories">
-							<img class="fivearticle" src="images/routeinondees.jpg" alt="fivearticle"/>
-						</div>
-						<div class="text-article-top-stories">
-							<div class="text-article-top-stories-title">
-								<p>TITLE</p>
-							</div>						
-								<p>Lorem ipsum dolor sit amet.</p>
-							<div class="text-article-top-stories-journalist">
-								<p>JOURNALIST</p>
-							</div>
-						</div>
-					</div>				
-				</div>
-			</div>
-
-			<!---------------most popular article------>
-			
-			<div id="most-popular-article">			
-				<div id="most-popular-title">
-					<h4>most popular</h4>
-				</div>	
-								
-			<!------------------first most article---------->	
-
-				<div id="firstarticle-most-popular">
-					<div class="image-text-most-popular">
-						<img src="images/AppleAppstore.jpg" alt="firstarticle" class="firtsarticle"/>
-						<div class="text-article-most-popular">
-							<p>TITLE</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<p>JOURNALIST</p>
-						</div>
-					</div>
-				</div>
-
-	    <!-----------------second most article---------->		
-
-				<div id="secondarticle-most-popular">
-					<div class="image-text-most-popular">
-						<img src="images/ElonMusk.jpg" alt="firstarticle" class="firtsarticle"/>	
-						<div class="text-article-most-popular">
-							<p>TITLE</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<p>JOURNALIST</p>
-						</div>
-					</div>
-				</div>
-
-	    <!-----------------third most article---------->
-
-				<div id="thirdarticle-most-popular">
-					<div class="image-text-most-popular">
-						<img src="images/GG3A0184.jpg" alt="firstarticle" class="firtsarticle"/>	
-						<div class="text-article-most-popular">
-							<p>TITLE</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<p>JOURNALIST</p>
-						</div>
-					</div>
-				</div>
-
-	    <!-----------------four most article---------->
-
-				<div id="fourarticle-most-popular">
-					<div class="image-text-most-popular">
-						<img src="images/OceanCleanup.jpg" alt="firstarticle" class="firtsarticle"/>
-						<div class="text-article-most-popular">
-							<p>TITLE</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<p>JOURNALIST</p>
-						</div>
-					</div>
-				</div>	
-
-		<!-----------------five most article---------->
-
-				<div id="fivearticle-most-popular">
-					<div class="image-text-most-popular">
-						<img src="images/InfiniteLoop-8-BW-w.jpg" alt="firstarticle" class="firtsarticle"/>							
-						<div class="text-article-most-popular">
-							<p>TITLE</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<p>JOURNALIST</p>
-						</div>
-					</div>
-				</div>
-
-		<!-----------------six most article---------->
-
-				<div id="sixarticle-most-popular">
-					<div class="image-text-most-popular">
-						<img src="images/CaptainMarvel.jpg" alt="firstarticle" class="firtsarticle"/>							
-						<div class="text-article-most-popular">
-							<p>TITLE</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-							<p>JOURNALIST</p>
-						</div>
-					</div>
-				</div>
-				<div id="link-morestories">
-					<a href="https://www.wired.com/most-popular/" class="info-arrow" alt="morestories"><img src="images/iconarrow.png" alt="iconarrow" class="iconarrow">more stories</a>
-				</div>
-			</div>
-		</div>
-
-		<!--------------latest video--------------->
-		
-		<div id="latest-video-article">
-			<div id="latest-video-title">
-				<h4>latest video</h4>
-			</div>
-			<div id="video-latest-video">
-				<iframe width="780" height="410" src="https://www.youtube.com/embed/_5uVVfjonhU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				<p>TITLE</p>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-		</div>			
-
-            
-            
-    
-       
+Et quoniam inedia gravi adflictabantur, locum petivere Paleas nomine, vergentem in mare, valido muro firmatum, ubi conduntur nunc usque commeatus distribui militibus omne latus Isauriae defendentibus adsueti. circumstetere igitur hoc munimentum per triduum et trinoctium et cum neque adclivitas ipsa sine discrimine adiri letali, nec cuniculis quicquam geri posset, nec procederet ullum obsidionale commentum, maesti excedunt postrema vi subigente maiora viribus adgressuri.
+                           </div>
+                       </div>
+                   </div>
+                   <div id="content-space-mostpopular">
+                       <div id="content-mostpopular-container" class="content-block-container ontheside">
+                           <div id="content-mostpopular-title" class="content-fixed-title"> MOST POPULAR</div>
+                           <div class="content-lign-mostpopular content-lign content-ligntop">
+                               <div class="content-mostpopular-picture" id="mostpopular-picture1">
+                               </div>
+                               <div class="content-mostpopular-article">
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       SCIENCE
+                                   </div>
+                                   <div class="content-mostpopular-lign-title">
+                                       IL A DIT QU'IL LE FERAIT ET IL L'A FAIT
+                                   </div>
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       ROMAIN TOURNESAC
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="content-lign-mostpopular  content-lign">
+                               <div class="content-mostpopular-picture" id="mostpopular-picture2">
+                               </div>
+                               <div class="content-mostpopular-article">
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       BACKCHANNEL
+                                   </div>
+                                   <div class="content-mostpopular-lign-title">
+                                       VOUS NE CROIREZ JAMAIS CE QU'IL C'EST PASSÉ
+                                   </div>
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       SOIZIC LAMBERT
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="content-lign-mostpopular  content-lign">
+                               <div class="content-mostpopular-picture" id="mostpopular-picture3">
+                               </div>
+                               <div class="content-mostpopular-article">
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       CULTURE
+                                   </div>
+                                   <div class="content-mostpopular-lign-title">
+                                       TOP 10 DES CHOSES LES PLUS INCROYABLES
+                                   </div>
+                                   <div class="content-mostpopular-lign-subtitle">
+                                       ETIENNE RABIN
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="content-lign-mostpopular-link  content-lign">
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        
         
 		<!---------------------- footer ---------------------->
         
@@ -493,16 +419,15 @@
                     </div>
                 </div>
             </footer>
-                               <!--    Bootstrap JS    -->
-            
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
            
-           
-                                <!--    Mon JS    -->
+                              <!--    Mon JS    -->
            
             <script src="wired.js"></script>
            
-        </body>	
-</html>
+        </body>
+        
+        
+		
+		
+		
+	</html>
