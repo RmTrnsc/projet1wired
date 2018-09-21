@@ -39,134 +39,212 @@ h4 {
 /*-------------------- ARTICLES ---------------------------*/
 
 #all-articles {
-	width: 70%;
+	width: 52em;
 	margin:0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
+
+
 #top-stories-article {
-	font-family: 'Asap', sans-serif;
 	width: 67%;
 }
 
-.text-article-top-stories-title, .text-article-top-stories-journalist {
-	font-family: none;
-	text-transform: uppercase;
-	padding-top: 0.2em;
+
+
+
+
+.article-top-stories {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-top: solid 0.2em #000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px #CCC;
 }
+
+/* Articles Contents */
+
+
+.article-top-stories-container {
+    width: 100%;
+    margin: 0.8em;
+}
+
+.image-article-top-stories {
+    background-color: #CCC;
+}
+
+
+
+.text-article-top-stories-categories, .text-article-top-stories-journalist {
+	text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.text-article-top-stories-title {
+    font-family: 'Asap', sans-serif;
+}
+
+
+
 	
+/* ----------------------- First ----------------------- */
+
 #firstpart-article-top-stories {
-	height: 20vw;
+    height: 21em;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
+    justify-content: space-between;
 	margin-bottom: 1em;
 }
+
+
 
 #firstarticle-top-stories {
-	width: 70%;
-	height: 22vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	border: 1px solid #CCC;
-	border-top: 3px solid;
-	margin-right: 0.5em;
-	padding-left: 1em;
-	padding-bottom: 1.5em;
-	line-height: 0.2;
-	box-shadow: 1px 1px 1px #CCC;
+    width: 67%;
+    height: 100%;
 }
 
-#firstarticle-top-stories img {
-	width: 90%;
-	margin: 1em;
+#firstarticle-top-stories  .image-article-top-stories {
+	width: 100%;
+    height: 12em;
 	margin-bottom: 1em;
+    background-image: url(images/article_archi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
 }
+
+
+
+/* ----------------------- Second ----------------------- */
 
 #secondarticle-top-stories {
-	width: 30%;
-	height: 22vw;
-	border: 1px solid #CCC;
-	border-top: 3px solid;
-	padding: 1em;
-	padding-bottom: 1.5em;
-	box-shadow: 1px 1px 1px #CCC;
+	width: 31.5%;
+    height: 100%;
 }
 
-#secondarticle-top-stories img {
-	width: 98%;
-	padding-bottom: 2em;
+
+
+
+#secondarticle-top-stories  .image-article-top-stories {
+	width: 100%;
+    height: 12em;
+	margin-bottom: 1em;
+    background-image: url(images/celulles.jpg);
+    background-repeat: no-repeat;
+    background-size: 270% auto;
+    background-position: center;
 }
+
+/* ------------- third and four and five----------------------- */
+
+
+
 
 #secondpart-article-top-stories {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	margin-top: 3em;
-	margin-bottom: 2em;
+    
+    width: 100%;
+    height: 22em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+
+
+
+/* ------------------ third and four----------------------- */
+
+
 
 #third-and-four-articles-top-stories {
-	width: 100%;
+	width: 49%;
+    height: 19em;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+    justify-content: space-between;
 }
+
+
+
+
+.image2-article-top-stories {
+    width:50%;
+    height: 7em;
+    background-color: red;
+}
+/* ----------------------- third ----------------------- */
+
+
+.article-top-stories-container-third {
+    width: 100%;
+}
+
+
+#thirdarticle-top-stories  .image2-article-top-stories {
+    background-image: url(images/pedestrians.jpg);
+    background-repeat: no-repeat;
+    background-size: 155% auto;
+    background-position: center;
+}
+
 
 #thirdarticle-top-stories {
-	display: flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	width: 95%;
-	border: 1px solid #CCC;
-	border-top: 3px solid;	
-	line-height: 0.8;
-	box-shadow: 1px 1px 1px #CCC;
+	width: 100%;
+    height: 9em;
 }
 
-#thirdarticle-top-stories img {
-	width: 80%;
+
+
+/* ----------------------- four ----------------------- */
+
+.article-top-stories-container-four {
+    width: 100%;
+}
+
+#fourarticle-top-stories  .image2-article-top-stories {
+    background-image: url(images/satellite.jpg);
+    background-repeat: no-repeat;
+    background-size: 160% auto;
+    background-position: center;
+}
+
+
+.text-article-top-stories-four {
+    margin-left: 1em;
+    width: 50%
 }
 
 #fourarticle-top-stories {
-	width: 95%;
-	height: 10vw;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	border: 1px solid #CCC;
-	border-top: 3px solid;
-	padding: 0.5em;
-	padding-top: 1em;
-	margin-top: 1em;
-	line-height: 0.8;
-	box-shadow: 1px 1px 1px #CCC;
+	width: 100%;
+    height: 9em;
 }
 
-#fourarticle-top-stories img {
-	width: 80%;
-	padding-right: 1em;
-	padding-left: 1em;
-}
+
+/* ----------------------- five ----------------------- */
 
 #fivearticle-top-stories {
-	width: 80%;
-	height: 21vw;
+	width: 49%;
+	height: 19em;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	border: 1px solid #CCC;
-	border-top: 3px solid;
-	padding: 1em;
-	padding-bottom: 0.5em;
-	font-size: 1.5em;
-	box-shadow: 1px 1px 1px #CCC;
     
 }
 
+#fivearticle-top-stories  .image-article-top-stories {
+	width: 100%;
+    height: 12em;
+	margin-bottom: 1em;
+    background-image: url(images/MostPopular/Mostpopular3.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
 
 
 /* ---------------------- MOST POPULAR --------------------- */
@@ -301,7 +379,7 @@ h4 {
 
 #latest-video-article-border {
 	border-top: solid 0.7em #000;
-	width: 70%; 
+	width: 52em; 
 	margin-top: 2em;
 	background-color: #FFF;
 	margin-bottom: 3em;
@@ -331,7 +409,11 @@ h4 {
 }
 
 
-/*media queries desktop screen*/
+
+
+
+
+/*----------------media queries desktop screen---------------*/
 
 @media all and (min-width: 600px) {
 
@@ -339,36 +421,38 @@ h4 {
 		display: none;		
 	}
 
-	#firstarticle-top-stories img {
-		height: 15vw;
-	}
+    
+    
+    .article-top-stories-container-third {
+        display: flex;
+        flex-direction:row-reverse; 
+        justify-content: space-between;
+        margin: 0.8em;
 
-	#secondarticle-top-stories {
-		line-height: 1;
-	}
+    }
+    
+    
+    .article-top-stories-container-four {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1em;
+    
+    }
+    
+    
 
-	#secondarticle-top-stories img {
-		height: 8vw;
-	}
-
-	#thirdarticle-top-stories {
-		height: 10vw;
-		padding-left: 1em;
-	}
-
-	#thirdarticle-top-stories img {
-		height: 8vw; 
-		padding-left: 2em;
-	}
-
-	#fourarticle-top-stories img {
-		height: 6vw;
-	}
-
-	#fivearticle-top-stories img {
+	#fivearticle-top-stories .image-article-top-stories {
 		display: none;
 	}
+    
+    .text-article-top-stories-title2{
+        font-family: "Asap", sans-serif;
+        font-size: 2em;
+        line-height: 1;
+    }
 
+    
 	iframe {
 		width: 100%;
 		height: 27vw;
@@ -377,114 +461,154 @@ h4 {
 	}
 }	
 
-/*media queries screen max-witdh 599px*/
+
+
+
+
+/*-----------------media queries screen max-witdh 599px--------*/
 
 @media all and (max-width: 599px){
 
 	.advertising {
 		width: 100%;
 		height: 10vw;
+        border-bottom:  1px solid #CCC;
 	}
 
 	#all-articles {
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		display: block;
 	}
+    
+    .article-top-stories {
+        border: none;
+        box-shadow: none;
+        
+    }
+    
+    .article-top-stories-container {
+        border-bottom:  1px solid #CCC;
+    }
 
 	#top-stories-title {
-		width: 95%;
-		padding: 0.5em;
-		border: 1px solid #CCC;
-		border-top: 8px solid black;
+		width: 100%;
+        height: 4em;
+        padding-left: 2em;
+		border-bottom: 1px solid #CCC;
+		border-top: 8px solid #000;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
 	}
 
 	#top-stories-article {
 		width: 93%;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+        margin: 0 auto;
+        background-color: #fff;
+        border:  1px solid #CCC;
+        box-shadow: 1px 1px 1px #CCC;
+        margin-bottom: 3em;
 	}
+    
+    /* ------------------- first article ------------------- */
 
 	#firstpart-article-top-stories {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 97%;
-		height: 50em;
+		height: 40em;
+        width: 100%;
 	}
 	
 	#firstarticle-top-stories {
-		width: 98%;
-		height: 25em;
+        width: 100%;
 		border-top: none;
 	}
-
-	#firstarticle-top-stories img {
-		width: 90%;
-		height: 30%;
-	}
+    
+    /* ------------------- second article ------------------- */
 
 	#secondarticle-top-stories {
-		width: 98%;
-		height: 25em;
-		border-top: 1px solid #CCC;
-		line-height: 0.5;
-		margin-bottom: 1em;
+        width: 100%;
+		border-top: none;
+        border-bottom: none;
 	}
 
-	#secondarticle-top-stories img {
-		width: 95%;
-		height: 30%;
-	}
+	
 
 	#secondpart-article-top-stories {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		width: 97%;
-		height: 75em;
+        width: 100%;
+        height: 60em;
+        display: block;
 	}
+    
+    #third-and-four-articles-top-stories {
+        width: 100%;
+        height: 40em;
+        
+        
+    }
+    
+    
+    .image2-article-top-stories {
+        width: 100%;
+        height: 12em;
+        margin-bottom: 1em;
+    }
+    
+    /* ------------------- third article ------------------- */
 
-	#thirdarticle-top-stories {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 98%;
-		height: 25em;
+	.article-top-stories-container-third {
+        width: 93%;
+        height: 19em;
+        margin: 0.8em;
+        border-bottom:  1px solid #CCC;
+    }
+    
+    #thirdarticle-top-stories {
+        display: block;
+		height: 20em;
 		border-top: none;
 	}
 
-	#thirdarticle-top-stories > div {
-		width: 95%;
-		height: 50%;
-	}
+    
+/* ------------------- Four article ------------------- */
+    
 
-	#thirdarticle-top-stories img {
-		width: 95%
-		height: 30%;
-	}
+    .article-top-stories-container-four {
+        
+        width: 93%;
+        height: 20em;
+        margin: 0.8em;
+        border-bottom:  1px solid #CCC;
+    }
 
 	#fourarticle-top-stories {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		width: 98%;
-		height: 25em;
+        display: block;
+		height: 20em;
 		border-top: none;
 	}
 
 	#fourarticle-top-stories img{
 		width: 95%;
 	}
+    
+    
+    /* ------------------- Five article ------------------- */
 
-	#fivearticle-top-stories {
+	 .article-top-stories-container-five {
+        
+        width: 93%;
+        height: 20em;
+        margin: 0.8em;
+        border-bottom:  1px solid #CCC;
+    }
+    
+    #fivearticle-top-stories {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		width: 98%;
-		height: 25em;
+        width: 100%;
+		height: 20em;
 		border-top: none;
 		margin-top: 1em;
 		font-size: 1em;
@@ -495,11 +619,17 @@ h4 {
 		height: 250px;
 	}
     
+     .text-article-top-stories-title2{
+        font-family: "Asap", sans-serif;
+        font-size: 1em;
+    }
+    
     
 /*  ------------------- MOST POPULAR ------------------------  */
 
 	#most-popular-article {
-		width: 91%;
+		width: 93%;
+        margin: 0 auto;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -518,7 +648,7 @@ h4 {
 /*  ---------------------------------------------------------  */
 
 	#latest-video-article-border {
-		width: 91%; 
+		width: 93%; 
 	}
 
 	#video-latest-video {
