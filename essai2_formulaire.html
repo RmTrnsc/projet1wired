@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+                                <!--    Bootstrap   -->
+        
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+                                <!--    CSS    -->
+        
+        <link rel="stylesheet" href="formulaireprojet1.css" />
+        <link rel="stylesheet" href="Topbar_formulaire.css" />
+        
+            
+        <title>WIRED</title>
+    </head>
+    
+    
+<body>
+    
+      <!---------------------------TOPBAR------------------------------->
+    
+    
+              <header id="thetopbar">
+                <div id="thetopbar-background" class="thetopbar-background-accueil">
+                    <div id="thetopbar-container">
+                    
+                                    <!--   Logo   -->
+                        <div id="thetopbar-container-logo" class="thetopbar-container-logo-accueil">
+                            <a id="thetopbar-link-logo" href=""></a>
+                        </div>
+       
+        
+                    </div>
+                 </div>
+            </header>
+    
+    <!---------------------------CONTAINER FLUID EN TETE---------->
+        
+    <div class="container-fluid" id="head" style="background-color: goldenrod">
+        <div class="row">
+            <div class="col-12 col-lg-6 ">
+                
+                <div id="texte">
+                    <div id="titre">
+                        <p id="ligne1">GET WIRED</p>
+                        <p id="ligne2">THE FUTURE IS ALREADY HERE</p>
+                    </div>
+                    
+                    <div id="ligne3">
+                        <p>Get 1 year for just $10</p>
+                    </div>
+                
+                    <div id="liste">
+                        <p> Print + Digital Access Includes :</p>
+                        <div id="cle_usb">
+                            <img src="cle_usb.png">
+                        </div>
+            
+                        <ul>
+                            <li>unlimited access to WIRED.com</li>
+                            <li>ad-free browsing</li>
+                            <li>print subscription</li>
+                            <Li>digital edition of the magazine</Li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paragraphe fin" style="font-size:1.3em">
+                        <p><strong>You will receive your limited-edition Yubokey in the next 4 weeks. You may cancel anytime</strong></p>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="d-none d-lg-block col-lg-6">
+                <img class="img-fluid" src="soucoupe__800.png">
+            </div> 
+        </div>
+        
+    </div>
+
+    
+    <!---------------------------CUSTOMIZE YOUR ORDER--------------->
+    
+    
+    <div class="container">
+        <div class="row justify-content-around" id="container-customize">
+            <div class="col-8">
+                <p id="subs-inter" style="text-align: center">Is your subscription going international ?
+                <a href="#" id="lien"> Subscribe on the international form</a></p>
+                
+                
+                 <div class="bloc1">
+                    <h3 >1. Customize your order</h3>
+                 </div>       
+            </div>
+        </div>
+        
+        <div class="row justify-content-around">
+            <div class="col-8">
+                <div id="bloc2">
+                    <div class="custom-control custom-checkbox" style="margin-left: 3%">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">This order is a gift.</label>
+                    </div>
+                    
+                <br/>
+                <br/>
+
+                    <div class="custom-control custom-checkbox" style="margin-left: 3%">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">Digital-only subscription.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+        
+        <!---------------------------ENTER YOUR INFORMATION--------------->  
+        
+    
+    <div class="container">
+        <div class="row justify-content-around" id="container-information">
+            <div class="col-8">
+                <div class="bloc1">
+                    <h3 >2. Enter your information</h3>
+                </div>
+            </div>  
+        </div> 
+       
+        <div class="row justify-content-around">
+            <div class="col-8">
+                <div id="bloc3">
+           
+                    <form class="formulaire">
+                        <div class="form-group has-error">
+                            <label for="first name">FIRST NAME</label>
+                            <input type="text" class="form-control" id="first name" placeholder="First name">
+                            
+                            <br/>
+                
+                            <label for="last name">LAST NAME</label>
+                            <input type="text" class="form-control" id="Last name" placeholder="Last name">
+                            
+                            <br/>
+                        
+                            <label for="email">EMAIL</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            
+                            <br/>
+                
+                            <label for="state">COUNTRY</label>
+                            <select class="form-control" id="Country" placeholder="select country">
+                                <option>United States</option>
+                                <option>Angola</option>
+                                <option>Argentina</option>
+                                <option>Belgium</option>
+                                <option>Brazil</option>
+                                <option>Canada</option>
+                                <option>Colombia</option>
+                                <option>Denmark</option>
+                                <option>France</option>
+                                <option>Hong-Kong</option>
+                                <option>Liberia</option>
+                                <option>Maldives</option>
+                                <option>Monaco</option>
+                            </select>
+                            
+                            <br/>   
+                
+                            <label for="mailing address">MAILING ADDRESS</label>
+                            <input type="text" class="form-control" id="mailing address" placeholder="Mailing address">
+                            
+                            <br/>
+                
+                            <label for="optionnal address">OPTIONAL ADDRESS LINE 2</label>
+                            <input type="text" class="form-control" id="address 2" placeholder="Optional address line 2">
+                            
+                            <br/>
+                
+                            <label for="city">CITY</label>
+                            <input type="text" class="form-control" id="City" placeholder="City">
+                            
+                            <br/>
+                
+                            <label for="state">STATE</label>
+                            <select class="form-control" id="state" placeholder="select state">
+                                <option>Alabama</option>
+                                <option>California</option>
+                                <option>Delaware</option>
+                                <option>Florida</option>
+                                <option>Hawaii</option>
+                                <option>Illinois</option>
+                                <option>Kansas</option>
+                                <option>Maine</option>
+                                <option>Missouri</option>
+                                <option>Nebraska</option>
+                                <option>New Jersey</option>
+                                <option>New York</option>
+                                <option>Ohio</option>
+                                <option>Oregon</option>
+                                <option>Pennsylvania</option>
+                                <option>South Carolina</option>
+                                <option>Wisconsin</option>
+                                <option>Texas</option>
+                                <option>Guam</option>
+                            </select>
+                            
+                            <br/>
+                
+                            <label for="zip code">POSTAL CODE</label>
+                            <input type="text" class="form-control" id="postal_code" placeholder="Postal code">
+                        </div>
+                    </form>
+        
+                    <div id="mention">
+                        <p>Will be used in accordance with our <a href="#">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+            
+   
+         <!---------------------------ENTER YOUR PAYMENT--------------->         
+
+    <div class="container">
+        <div class="row justify-content-around" id="container-payment">
+            <div class="col-8">
+                <div class="bloc1">
+                    <h3>3. Enter your payment</h3> 
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row justify-content-around">
+            <div class="col-8">
+                <div id="bloc4">
+                    <div class="transaction">
+        
+                        <img id="cadenas" src="cadenas_10px.png">
+                        <P id="transaction">Transaction is secured with SSL encryption</P>
+                    </div>
+                
+                    
+                    <form class="formulaire">
+                        <div class="form-group has-error">
+                            <label for="first name">FIRST NAME</label>
+                            <input type="text" class="form-control" id="first name" placeholder="First name">
+                            
+                            <br/>
+                
+                            <label for="exp month"> EXP. MONTH</label>
+                            <select class="form-control" id="exp" placeholder="MM">
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            
+                            <br/>
+                
+                            <label for="exp year"> EXP. YEAR</label>
+                            <select class="form-control" id="exp" placeholder="YY">
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                                <option>2027</option>
+                                <option>2028</option>
+                            </select>  
+                            
+                            <br/>
+                
+                            <label for="security code"> SECURITY CODE</label>
+                            <input type="number" class="form-control" id="security code" placeholder="CVV"> 
+                        </div>    
+                    </form>       
+                </div>  
+            </div> 
+        </div> 
+    </div>
+        
+        
+        
+<!---------------------------REVIEW ORDER---------------> 
+        
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-8" id="review">  
+                <h4>Review order</h4>
+                
+                <div class="row justify-content-between">
+                    
+<!----------------------A REVOIR POUR ALIGNEMENT COLONNE---------------------------->                
+                    <div class="col-3 col-xs-auto">
+                        <p>WIRED subscription</p>
+                        <p class="total">Order Total</p>
+                    </div>
+                
+                    <div class="col-3">
+                        <p>$10.00</p>
+                        <p class="total">$10.00 <br/> 
+                        + sales tax</p>
+                        
+<!----------------------A REVOIR POUR ALIGNEMENT COLONNE---------------------------->                   
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    </div>    
+        
+    
+        
+        
+         <!------------------------SUBSCRIBER'S-------------------------> 
+        
+        
+    <div class="container" id="subscriber">
+        <div class="row justify-content-center"> 
+            <div class="col-8">
+                    <h5>Subscriber's Automatic Renewal Feature: </h5>
+        
+                    <P>Lorem ipsum dolor sit amet, ei populo nostrud vocibus qui, cum aeterno alienum maiestatis te. Ea mazim aliquip eloquentiam his. Tamquam menandri euripidis pri ex. Mel an conceptam abhorreant mnesarchum, ut nec nullam senserit dissentiet.Eruditi epicuri ut quo, cum ex cetero moderatius. Tale elaboraret sit ne. Ad usu aeque ponderum, exerci viderer disputationi ei vix. Veri partem eloquentiam his ad. Ex mel atomorum salutandi similique, iuvaret utroque pro ea. Ne quod tota illum vix.</P>
+        
+                    <div class="button">
+                        <button type="button" class="btn btn-secondary btn-lg btn-block btn-dark">SUBSCRIBE</button>
+                    </div>
+            </div> 
+        </div>
+    </div>        
+            
+    <!------------------FAQ-------------------------------------------------->      
+    <footer> 
+        
+        <div class="container-fluid" style="background-color: white">
+            <div class="row justify-content-around" id="faq">
+                <div class="col-6" id="container-faq">
+                
+                    <h3>FAQ</h3> 
+            
+                    <div id="questions">
+            
+                        <div class="panel-group" id="accordion">
+                        
+                            <div class="panel panel-default" class="deroulant">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    What is included in my suscription to WIRED.com ?</a>    
+                                    </p>
+                                </div>                               
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                <p class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                What if already have a print or ad-free subscription</a>
+                                </p>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </div>
+                                </div>          
+                            </div>
+                            
+                            
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    How will I be billed and how can I cancel my subscription ?</a>
+                                    </p>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <p class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    How does my subscription help support WIRED ?</a>
+                                    </p>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                </div>
+                            </div>                       
+</div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+            
+<!------------------------CGV------------------------->        
+           <div class="row justify-content-around" id="CGV">
+               
+            <div class="col-6" id="customer service">
+       
+                <p>Customer service can be reached at <a href="#">www.wired.com/customerservice</a> or 1-800-405-8085 <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>  
+        </div>
+    </div>
+    
+</footer>    
+ 
+ 
+    
+    
+<!-------------------script JavaScript---------------------->    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
+          
+        
