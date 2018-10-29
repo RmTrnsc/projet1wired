@@ -20,8 +20,11 @@ body {
 
 #advertisingbanner {
 	margin:0 auto;
-	margin-top: 7em;
+    height: 5em;
+    width: 40em;
+	margin-top: 8em;
 	margin-bottom: 2em;
+    background-color: #CCC;
 }
 
 .advertising {
@@ -35,6 +38,14 @@ h4 {
 	font-size: 1.5em;
 }
 
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
 
 /*-------------------- ARTICLES ---------------------------*/
 
@@ -65,6 +76,12 @@ h4 {
     box-shadow: 1px 1px 1px #CCC;
 }
 
+
+.article-top-stories:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
 /* Articles Contents */
 
 
@@ -92,6 +109,8 @@ h4 {
 
 	
 /* ----------------------- First ----------------------- */
+
+
 
 #firstpart-article-top-stories {
     height: 21em;
@@ -176,7 +195,6 @@ h4 {
 .image2-article-top-stories {
     width:50%;
     height: 7em;
-    background-color: red;
 }
 /* ----------------------- third ----------------------- */
 
@@ -359,7 +377,7 @@ h4 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 70%;
+	width: 100%;
 	height: 10%;
 	margin-top: 1em;
 	padding-left: 1em;
@@ -474,6 +492,15 @@ h4 {
 		height: 10vw;
         border-bottom:  1px solid #CCC;
 	}
+    
+    #advertisingbanner {
+	margin:0 auto;
+    height: 5em;
+    width: 93%;
+	margin-top: 8em;
+	margin-bottom: 2em;
+    background-color: #CCC;
+}
 
 	#all-articles {
 		width: 100%;
