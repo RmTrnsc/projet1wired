@@ -54,16 +54,16 @@ header {
 
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 375px) {
 
     #topbar-background {
-        height: 2.5em ;
+        height: 5em ;
     }
     
 }
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 1024px) {
 
      #topbar-background {
         height: 3.8em ;
@@ -161,16 +161,16 @@ header {
 
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 375px) {
 
     #topbar-container-logo {
-        width: 6em;
+        width: 10em;
     }
     
 }
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 1024px) {
 
      .topbar-container-logo-accueil {
          width: 10em;
@@ -199,7 +199,7 @@ header {
 /* ------------------ Titre categorie ------------------ */
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 375px) {
 
     #topbar-titre-categorie-container {
         height: 0px;
@@ -215,7 +215,7 @@ header {
 }
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 1024px) {
 
         #topbar-titre-categorie-container {
         width: 80%;
@@ -282,7 +282,7 @@ header {
 /* ---------------------  navigation  --------------------- */
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 375px) {
     
      .topbar-navigation-container {
         visibility: hidden;
@@ -293,7 +293,7 @@ header {
 }
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 1024px) {
 
     .topbar-navigation-container {
         width: 100%;
@@ -505,7 +505,7 @@ header {
 
 /* ----- Small Screen ----- */
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 375px) {
    
     .topbar-menu-categories-row {
         width: 100%;
@@ -592,7 +592,7 @@ header {
 
 /* ----- Big Screen ----- */
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 1024px) {
 
       #topbar-menu-categories-container-big {
         border-bottom: solid;
@@ -894,7 +894,7 @@ header {
 
 /* ----- Small Screen ----- */
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 375px) {
     
     #content {
     padding-top: 8em;
@@ -904,26 +904,33 @@ header {
         width: 0px;
         visibility: hidden;
     }
-    
+    #content-article {
+        width: 90%;
+    }
+    #content-title {
+        margin-left: 30%;
+    }
+    .content-title-author {
+        margin-left: 45%;
+    }
      #content-space-mostpopular {
         width: 0px;
         visibility: hidden;
     }
 
-    #content-article-container {
-    width: 100%;
-    
+    #content-picture {
+        margin-left: 10%;
     }
-    
-     #content-article {
-    width: 90%;
+    #content-text {
+        margin-left: 20%;
+        text-align: center;
     }
     
 }
 
 /* ----- Big Screen ----- */
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-device-width : 1024px) {
 
     #content-article-container {
     width: 60%;
@@ -1000,12 +1007,14 @@ header {
 }
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 576px) {
+@media only screen and (max-device-width : 375px) {
     
     #footer-logo-container {
         height: 4em;  
     }
-    
+    #footer-background {
+        width: 73em;
+    }
     #footer-logo {
         width: 6em;
         
@@ -1013,7 +1022,7 @@ header {
 }
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 576px) {
+@media only screen and (min-device-width : 1024px) {
       
      #footer-logo-container {
         height: 6em;  
@@ -1049,7 +1058,7 @@ header {
 
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 576px) {
+@media only screen and (max-device-width : 375px) {
     
     .footer-container-reseaux-small {
         width: 21em;
@@ -1078,7 +1087,7 @@ header {
 
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 576px) {
+@media only screen and (min-device-width : 1024px) {
 
     .footer-container-reseaux-big {
         width: 18em;
@@ -1112,7 +1121,7 @@ header {
 
 
 /* ----- Small Screen ----- */
-@media only screen and (max-width : 576px) {
+@media only screen and (max-device-width : 375px) {
     
     #footer-menu-content {
         margin-top: 2em;
@@ -1151,7 +1160,7 @@ header {
 
 
 /* ----- Big Screen ----- */
-@media only screen and (min-width : 576px) {
+@media only screen and (min-device-width : 1024px) {
 
 
     #footer-menu-content {
