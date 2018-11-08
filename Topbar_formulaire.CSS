@@ -13,12 +13,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    
 }
-
-
-
-
 #thetopbar-container {
     width: 96%;
     height: 100%;
@@ -26,8 +21,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
-    
 }
 
 
@@ -73,9 +66,9 @@ header {
 
 
 #thetopbar-link-logo {
-        width: 100%;
-        height: 100%;
-        display : block;
+    width: 100%;
+    height: 100%;
+    display : block;
 }
 
 #thetopbar-container-logo:hover {
